@@ -1,10 +1,18 @@
 {
-  "name": "ckeditor5-custom-project",
-  "version": "0.0.1",
-  "scripts": {
-    "start": "http-server -o ./index.html"
-  },
+  "name": "plainadmin",
+  "version": "2.0.0",
+  "main": "index.html",
+  "repository": "https://github.com/PlainAdmin/plainadmin.git",
+  "author": "plainadmin team",
+  "license": "MIT",
   "devDependencies": {
-    "http-server": "^14.0.0"
+    "browser-sync": "^2.27.10",
+    "gulp": "^5.0.0",
+    "gulp-minify": "^3.1.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.63.6"
+  },
+  "dependencies": {
+    "gulp-cli": "^3.0.0"
   }
 }
