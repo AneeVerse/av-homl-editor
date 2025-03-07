@@ -79,39 +79,26 @@ const LICENSE_KEY =
 const editorConfig = {
 	toolbar: {
 		items: [
-			'sourceEditing',
+			
 			'showBlocks',
-			'findAndReplace',
+			'sourceEditing',
+
+
+
 			'|',
 			'heading',
 			'|',
-			'fontSize',
-			'fontFamily',
-			'fontColor',
-			'fontBackgroundColor',
-			'|',
-			'bold',
-			'italic',
-			'underline',
-			'strikethrough',
-			'subscript',
-			'superscript',
-			'code',
-			'removeFormat',
-			'|',
-			'emoji',
-			'specialCharacters',
-			'horizontalLine',
-			'pageBreak',
-			'link',
-			'insertImage',
+
+
 			'insertImageViaUrl',
 			'mediaEmbed',
 			'insertTable',
-			'highlight',
 			'blockQuote',
 			'codeBlock',
 			'htmlEmbed',
+			'emoji',
+			'link',
+			'horizontalLine',
 			'|',
 			'alignment',
 			'|',
@@ -119,7 +106,19 @@ const editorConfig = {
 			'numberedList',
 			'todoList',
 			'outdent',
-			'indent'
+			'indent',
+
+			
+
+
+
+			'|',
+			'removeFormat',
+			'|',
+			
+
+
+			'findAndReplace'
 		],
 		shouldNotGroupWhenFull: true
 	},
@@ -196,7 +195,25 @@ const editorConfig = {
 		Underline,
 		WordCount
 	],
-	balloonToolbar: ['sourceEditing','bold', 'italic', '|', 'link', 'highlight', '|', 'bulletedList', 'numberedList'],
+	balloonToolbar: [
+			'bold',
+			'italic',
+			'underline',
+			'strikethrough',
+			'subscript',
+			'superscript',
+			'code',
+			'fontColor',
+			'fontBackgroundColor',
+			'highlight',
+
+
+			'|', 
+			
+			'link', '|', 
+			
+			'bulletedList', 'numberedList'
+	],
 	blockToolbar: [
 		'sourceEditing',
 		'fontSize',
